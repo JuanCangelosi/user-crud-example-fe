@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="primary" dark>
-      <v-toolbar-title>Juan Cangelosi Demo</v-toolbar-title>
+      <v-toolbar-title><router-link to="/">Juan Cangelosi Demo</router-link></v-toolbar-title>
 
       <v-spacer></v-spacer>
 

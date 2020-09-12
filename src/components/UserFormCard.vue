@@ -4,7 +4,9 @@
       <span class="headline">{{ formTitle }}</span>
     </v-card-title>
 
-    <v-card-text></v-card-text>
+    <v-card-text>
+      <UserForm/>
+    </v-card-text>
 
     <v-card-actions>
       <v-spacer></v-spacer>
@@ -15,7 +17,26 @@
 </template>
 
 <script>
-export default {};
+import UserForm from '@/components/UserForm'
+
+export default {
+  components: {
+    UserForm
+  },
+  data () {
+    return {
+      formTitle: 'Add User'
+    }
+  },
+  methods: {
+    close: function () {
+
+    },
+    save: function () {
+
+    }
+  }
+}
 </script>
 
 <style>

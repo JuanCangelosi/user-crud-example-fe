@@ -1,12 +1,14 @@
 <template>
-  <div>Users</div>
+  <div>
+    <UserList/>
+  </div>
 </template>
 
 <script>
 import UserList from '@/components/UserList'
 
 export default {
-  components: [UserList]
+  components: { UserList }
 }
 </script>
 
