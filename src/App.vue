@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-app-bar app color="primary" dark>
-      <v-toolbar-title><router-link to="/">Juan Cangelosi Demo</router-link></v-toolbar-title>
+      <v-toolbar-title><router-link to="/" class="toolbar-title">Juan Cangelosi Demo</router-link></v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -29,3 +29,9 @@ export default {
   })
 }
 </script>
+<style scoped>
+.toolbar-title {
+  color: white;
+  text-decoration: none;
+}
+</style>
